@@ -40,9 +40,6 @@ def download_csv(date_input):
     # Wait for the page to load after logging in
     time.sleep(1)
 
-    # Navigate to the page where the file (.csv) is located
-    driver.get("https://trafinfo.com/sumner/viewlogs")
-
     # Find the input field and enter the transformed date
     date_field = driver.find_element(By.NAME, "date")
     date_field.clear()  # Clear the default value (today's date)
