@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 import time
 import configparser
 import os
-import tempfile
 
 # Function to transform user-inputted date
 def transform_date(date_input):
