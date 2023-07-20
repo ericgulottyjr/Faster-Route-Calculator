@@ -59,5 +59,3 @@ def download_csv(date_input):
     file_path = os.path.join(downloads_folder, f"vms_log_{date_input}.txt")
 
     return file_path
-
-print(download_csv('2023-07-18'))
